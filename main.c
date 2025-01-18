@@ -11,7 +11,9 @@ int vencedor(int *tabuleiro);
 int main()
 {
     srand(time(NULL));
+    
     int jog=0,venc=0;
+
     int tabuleiro[9];
     int modo = inicia(tabuleiro);
     tutorial();
